@@ -117,7 +117,7 @@ const Projectform = () => {
       }).catch(error=>{
         console.log(error);
       })
-      window.location.replace('https://free-lance-website-server.vercel.app/profile');
+      window.location.replace('https://free-lance-website-clients.vercel.app/profile');
     };
   
     const handletitle = (e: any) => {
