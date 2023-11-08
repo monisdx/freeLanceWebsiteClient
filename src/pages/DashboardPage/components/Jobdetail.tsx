@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Dashbar from "./Dashbar";
-import Emailform from "./Emailform";
+
 import { FaRupeeSign } from "react-icons/fa";
 import { useLocation } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
@@ -362,10 +362,3 @@ let applied_users_id ;
 
 export default Jobdetail;
 
-
-function EmailModal({finalRows}:any) {
-
-  return (
-   <Emailform finalRows={finalRows}/>
-  );
-}
