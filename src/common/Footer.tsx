@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaFacebook,FaInstagram,} from 'react-icons/fa';
 import {AiFillTwitterCircle,AiOutlineGithub} from 'react-icons/ai';
-
+//hiii
 const Footer = () => {
   return (
     <div className='flex flex-col justify-center items-center bg-footerbg section_padding'>
