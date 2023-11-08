@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply m-0 p-0 box-border scroll-smooth;
+  }
+
+  body {
+    @apply bg-[#ffff];
+    overflow: overlay
+  }
+}
+
+@layer utilities {
+  .p-page {
+    @apply px-[6vw];
+  }
+
+  .section_padding {
+    @apply px-24 py-16 s:px-8 s:py-16 m:p-16;
+  }
+
+  .section_margin {
+    @apply mx-24 my-16 s:mx-8 s:my-16 m:m-16;
+  }
+}
+
+@layer components {
+  .btn-1 {
+    @apply bg-herogradient font-manrope text-white font-medium rounded text-base  cursor-pointer mx-[.5rem] px-4 py-[.5rem] outline-none border-none hover:from-[#4217b7] hover:to-[#de56c1];
+  }
+  /* #4923B4 */
+  .btn-2 {
+    @apply bg-gradient-to-r from-sky-500 to-indigo-500 font-manrope  text-white w-full p-2 font-medium rounded text-base cursor-pointer border-none outline-none hover:from-sky-600 hover:to-indigo-600;
+  }
+
+  .btn-3 {
+    @apply bg-gradient-to-r from-sky-500 to-indigo-500 font-manrope  text-white  px-4 py-2 font-medium rounded text-base cursor-pointer border-none outline-none hover:from-sky-600 hover:to-indigo-600;
+  }
+
+  .btn-4 {
+    @apply bg-[#FF00C7] w-full font-manrope font-bold text-xl cursor-pointer text-foreground border-none outline-none rounded-[40px] px-8 py-0 min-h-[50px] hover:bg-[#ca009f];
+  }
+
+  .p-style {
+    @apply font-manrope text-black font-medium text-xl  capitalize text-center m-8 cursor-pointer;
+  }
+  .active {
+    @apply text-[#4217b7]
+  }
+  .footer-h4 {
+    @apply font-manrope font-bold text-sm text-foreground mb-4;
+  }
+  .footer-p {
+    @apply font-manrope text-xs text-foreground cursor-pointer my-2 mx-0;
+  }
+}

@@ -1,0 +1,50 @@
+@import url("./tailwind.css");
+@import url("./directives.css");
+
+/* Raleway font */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+/* Poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+/* Manrope */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+
+  :root {
+    --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+    --color-btn: linear-gradient(103.22deg, #3B82F6 -13.86%, #6366F1 99.55%);
+    --color-btnhover: linear-gradient(103.22deg, #2c7bfb -13.86%, #5b5de0 99.55%);
+    --color-headerbg: linear-gradient(103.22deg, #4923B4 -13.86%, #E878CF 99.55%);
+    --color-headerbghover: linear-gradient(103.22deg, #451bb9 -13.86%, #e864cc 99.55%);
+  }  
+  
