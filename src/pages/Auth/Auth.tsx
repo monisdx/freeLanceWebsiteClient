@@ -67,9 +67,9 @@ const Auth = () => {
         }
         if(data.sucess){
           if(role==="Student"){
-            window.location.replace(`http://localhost:5173/studentdashboard`);
+            window.location.replace(`https://free-lance-website-server.vercel.app/studentdashboard`);
           }else{
-            window.location.replace('http://localhost:5173/dashboard')
+            window.location.replace('https://free-lance-website-server.vercel.app/dashboard')
           }
         }
         
@@ -102,9 +102,9 @@ const Auth = () => {
         }
         if(data.sucess){
           if(data.user.role==="Student"){
-            window.location.replace(`http://localhost:5173/studentdashboard`);
+            window.location.replace(`https://free-lance-website-server.vercel.app/studentdashboard`);
           }else{
-            window.location.replace('http://localhost:5173/dashboard')
+            window.location.replace('https://free-lance-website-server.vercel.app/dashboard')
           }
         }
       }).catch(err=>{
